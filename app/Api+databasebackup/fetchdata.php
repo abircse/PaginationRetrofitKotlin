@@ -2,8 +2,8 @@
 
 	header('Content-Type: application/json; charset=utf-8');  
 	$host="localhost";
-	$userName="coxtunes";
-	$password="gdv0SY87r2";
+	$userName="yourusername";
+	$password="yourpassword";
 	$dbName="coxtunes_pagination";
 
 	$conn= mysqli_connect($host,$userName,$password,$dbName);
