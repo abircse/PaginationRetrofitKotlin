@@ -114,7 +114,7 @@ public class MainActivity extends AppCompatActivity {
                     progressBar.setVisibility(View.GONE);
                     list= response.body().getData();
                     adapter.addpeople(list);
-                    Toast.makeText(MainActivity.this, "Page "+page_number+" is loaded", Toast.LENGTH_SHORT).show();
+                    //Toast.makeText(MainActivity.this, "Page "+page_number+" is loaded", Toast.LENGTH_SHORT).show();
 
                 }
 
